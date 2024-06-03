@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h5 {
+    @apply font-bold text-xl;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply rounded-full border-2 px-5 py-2;
+  }
+  .btn-primary {
+    @apply bg-[#1668e8] font-bold text-white;
+  }
+}
